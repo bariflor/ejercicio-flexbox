@@ -105,10 +105,16 @@ footer{
 .icon-heart{
 	font-size: 10px;
 	color: white;
+	padding: 5px;
 	display: flex;
 	align-items: center;
-	font-size: 10px;
+	font-size: 12px;
+
 
 }
-
+.text-footer{
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
 /*=====  End of FOOTER  ======*/
