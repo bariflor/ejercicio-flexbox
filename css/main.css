@@ -3,12 +3,12 @@
 /*	outline: 1px solid red;
 */}
 body {
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
-  background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
-  font-family: 'Open Sans', sans-serif;
+	  margin: 0 auto;
+	  font-size: 16px;
+	  line-height: 1.71429;
+	  background-color: #fff;
+	  /* Enlaza la tipografia Open Sans */
+	  font-family: 'Open Sans', sans-serif;
 }
 .flex-container{
 	display: flex;
@@ -109,8 +109,6 @@ footer{
 	display: flex;
 	align-items: center;
 	font-size: 12px;
-
-
 }
 .text-footer{
 	display: flex;
