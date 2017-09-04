@@ -1,7 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans');
+*{
+/*	outline: 1px solid red;
+*/}
 body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
   /* Enlaza la tipografia Open Sans */
+  font-family: 'Open Sans', sans-serif;
 }
+.flex-container{
+	display: flex;
+}
+/*============================
+=            Menú            =
+============================*/
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	margin: 10px;
+	color: black;
+	display: flex;
+	align-items: center;
+}
+.menu.flex-container{
+	justify-content: flex-start;
+}
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+/*=====  End of Menú  ======*/
+
+/*==============================
+=            /*home            =
+==============================*/
+#home{
+	height: 600px;
+	margin-top: 70px;
+
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;/***/
+	background-attachment: fixed; /***/
+	background-repeat: no-repeat; /***/
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	color: whitesmoke;
+}
+.text-home{
+	font-size: 2.4em;
+}
+.btn-home{
+	border: 1px solid white;
+	background-color: #63e768;
+	border-radius: 7px;
+}
+/*=====  End of /*home  ======*/
+
+
+/*==============================================
+=            Section SERVICES block            =
+==============================================*/
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*=====  End of Section SERVICES block  ======*/
+/*==============================
+=            FOOTER            =
+==============================*/
+footer{
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	font-size: 18px;
+}
+.icon-heart{
+	font-size: 10px;
+	color: white;
+	display: flex;
+	align-items: center;
+	font-size: 10px;
+
+}
+
+/*=====  End of FOOTER  ======*/
